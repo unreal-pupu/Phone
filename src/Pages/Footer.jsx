@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <>
 
-        <footer class="bg-gray-800 text-white py-8 mt-24">
+        <footer class="bg-[#333333] text-white py-8 mt-24">
   <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
     
     <div class="flex items-center space-x-4 mb-8 md:mb-0">
-      <h1 class="text-2xl font-bold uppercase text-red-500 font-poppins">phlox</h1>
+      <h1 class="text-2xl font-bold uppercase text-[#ffffff] font-poppins">VINOS GADGET</h1>
       <p class="text-sm text-gray-400 font-poppins">We fix,sell,Buy&Swarp mobile phones </p>
     </div>
 
@@ -19,20 +19,12 @@ const Footer = () => {
     <div class="flex flex-col items-center md:items-end">
       <p class="text-sm text-gray-400 mb-2">Follow Us</p>
       <div class="flex space-x-6">
-        <a href="https://facebook.com/YourCompany" target="_blank" class="text-gray-400 hover:text-blue-600 transition-colors duration-300">
-        <FaFacebook /> 
-        </a>
-
-        <a href="https://x.com/YourCompany" target="_blank" class="text-gray-400 hover:text-black transition-colors duration-300">
-        <FaXTwitter />
-        </a>
+        <a href="https://facebook.com/vinogadget"target="_blank" className='text-gray-400 hover:text-blue-600 transition-colors duration-300'><FaFacebook  className='text-3xl'/> </a>
      
-        <a href="https://instagram.com/YourCompany" target="_blank" class="text-gray-400 hover:text-pink-500 transition-colors duration-300">
-        <FaInstagram />
+        <a href="https://instagram.com/Vinos_gadget_ng" target="_blank" class="text-gray-400 hover:text-[#6a041d] transition-colors duration-300">
+        <FaInstagram  className='text-3xl'/>
         </a>
-        <a href="https://linkedin.com/company/YourCompany" target="_blank" class="text-gray-400 hover:text-blue-700 transition-colors duration-300">
-        <CiLinkedin />
-        </a>
+       
       </div>
     </div>
   </div>
@@ -68,9 +60,9 @@ const Footer = () => {
     <div>
       <h3 class="font-semibold text-lg mb-2 font-poppins">Get in Touch</h3>
       <p class="text-sm text-gray-400 font-poppins">Email: <a href="mailto:contact@yourcompany.com" class="hover:text-white">contact@yourcompany.com</a></p>
-      <p class="text-sm text-gray-400 font-poppins">Mobile: <a href="tel:+1234567890" class="hover:text-white">+1 (234) 567-890</a></p>
-      <p class="text-sm text-gray-400 font-poppins">Opening Hours: Mon-Fri 9:00 AM - 5:00 PM</p>
-      <p class="text-sm text-gray-400 font-poppins">Address: 123 Business St, City, Country</p>
+      <p class="text-sm text-gray-400 font-poppins">Mobile: <a href="tel:+234 7031513455" class="hover:text-white">+234 7031513455</a></p>
+      <p class="text-sm text-gray-400 font-poppins">Opening Hours: Mon-Sat 8:00 AM - 6:00 PM</p>
+      <p class="text-sm text-gray-400 font-poppins">Address: Shop 39,First Floor, Zebra Plaza, New GSM and Computer Village, Etegwe, Yenagoa, Bayelsa State, Nigeria.</p>
     </div>
   </div>
 </footer>

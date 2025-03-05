@@ -1,4 +1,5 @@
 import React from 'react'
+import VGQR from '../assets/VGQR.jpg'
 
 const About = () => {
   return (
@@ -20,8 +21,8 @@ const About = () => {
           <h3 className="text-xl font-medium text-gray-800 mb-4 font-poppins">Contact Information</h3>
           <p className="text-gray-600 mb-2 font-poppins">
             <strong>Phone Number:</strong>{' '}
-            <a href="tel:+1234567890" className="text-blue-500 hover:text-blue-700">
-              +1 (234) 567-890
+            <a href="tel:+234 7031513455" className="text-blue-500 hover:text-blue-700">
+              +234 7031513455
             </a>
           </p>
           <p className="text-gray-600 mb-2 font-poppins">
@@ -31,22 +32,22 @@ const About = () => {
             </a>
           </p>
           <p className="text-gray-600 mb-2 font-poppins">
-            <strong>Business Address:</strong> 123 Main Street, City, Country
+            <strong>Business Address:</strong> Address: Shop 39,First Floor, Zebra Plaza, New GSM and Computer Village, Etegwe, Yenagoa, Bayelsa State, Nigeria.
           </p>
           <p className="text-gray-600 mb-4 font-poppins">
-            <strong>Opening Hours:</strong> Mon - Fri: 9:00 AM - 6:00 PM
+            <strong>Opening Hours:</strong> Mon - Sat: 8:00 AM - 6:00 PM
           </p>
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-medium text-gray-800 mb-4 font-poppins">Our Location</h3>
           <p className="text-gray-600 mb-4 font-poppins">
-            <strong>Visit Us:</strong> We are located at 123 Main Street, City, Country. Feel free to stop by during business hours.
+            <strong>Visit Us:</strong> Address: Shop 39,First Floor, Zebra Plaza, New GSM and Computer Village, Etegwe, Yenagoa, Bayelsa State, Nigeria.. Feel free to stop by during business hours.
           </p>
           <div className="text-center">
             <h4 className="text-lg font-medium text-gray-800 mb-2 font-poppins">Opening Hours:</h4>
-            <p className="text-gray-600 font-poppins">Mon - Fri: 9:00 AM - 6:00 PM</p>
-            <p className="text-gray-600 font-poppins">Sat - Sun: Closed</p>
+            <p className="text-gray-600 font-poppins">Mon - Fri: 8:00 AM - 6:00 PM</p>
+            <p className="text-gray-600 font-poppins"> Sun: Closed</p>
           </div>
         </div>
       </div>
@@ -58,9 +59,9 @@ const About = () => {
         </p>
         <div className="flex justify-center">
           <img
-            src="https://via.placeholder.com/150?text=WhatsApp+QR"
+            src={VGQR}
             alt="WhatsApp QR Code"
-            className="w-32 h-32 object-contain"
+            className="w-[250px] h-[250px] object-contain"
           />
         </div>
       </div>

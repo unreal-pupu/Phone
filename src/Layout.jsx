@@ -3,7 +3,9 @@ import { Outlet, NavLink } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import Footer from './Pages/Footer';
 import { CiMenuFries } from "react-icons/ci";
+import VG from './assets/VG .jpg'
 import { FiX } from "react-icons/fi";
+
 
 const Layout = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,21 +17,21 @@ const Layout = () => {
   return (
     <>
       <div>
-        <nav className='flex justify-between items-center p-4 bg-white'>
+        <nav className='flex justify-between items-center p-4 bg-gray-100'>
           <div className='flex items-center space-x-6'>
-            <h2 className='text-red-500 uppercase text-2xl font-bold font-poppins'>phlox</h2>
+             <img src={VG} alt="Tablet Repair"className="w-16 h-16 rounded-full object-contain" />
             <ul className="hidden md:flex space-x-6">
-              <li><NavLink className="hover:text-gray-400 font-roboto" to="">Repairs and Services</NavLink></li>
-              <li><NavLink className="hover:text-gray-400 font-roboto" to="products">Sell / Swap your Device</NavLink></li>
-              <li><NavLink className="hover:text-gray-400 font-roboto" to="about">Contact Us</NavLink></li>
-              <li><NavLink className="hover:text-gray-400 font-roboto" to="privacy">Privacy Policy</NavLink></li>
-              <li><NavLink className="hover:text-gray-400 font-roboto" to="fac">FAQ</NavLink></li>
+              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="">Repairs and Services</NavLink></li>
+              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="products">Sell / Swap your Device</NavLink></li>
+              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="about">Contact Us</NavLink></li>
+              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="privacy">Privacy Policy</NavLink></li>
+              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="fac">FAQ</NavLink></li>
             </ul>
           </div>
 
           <div className="md:hidden">
-            <button className="text-red-500" onClick={toggleMenu}>
-              <CiMenuFries className="h-6 w-6 text-red-500" />
+            <button className="text-[#6a041d]" onClick={toggleMenu}>
+              <CiMenuFries className="h-6 w-6 text-[#6a041d]" />
             </button>
           </div>
         </nav>

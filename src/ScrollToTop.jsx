@@ -25,9 +25,9 @@ const ScrollToTop = () => {
   return (
     isVisible && (
         <button
-          onClick={scrollToTop} className="fixed bottom-8 right-8 inline-flex items-center justify-center bg-orange-600  rounded-lg transition-all duration-200 ease-out max-w-[60px]"
+          onClick={scrollToTop} className="fixed bottom-8 right-8 inline-flex items-center justify-center bg-[#6a041d] rounded-lg transition-all duration-200 ease-out max-w-[60px]"
         >
-          <IoArrowUpSharp  className="text-[aliceblue] text-5xl transition-all duration-200 ease-out hover:bg-[#104147] hover:translate-y-[-4px]"/>
+          <IoArrowUpSharp  className="text-[aliceblue] text-5xl transition-all duration-200 ease-out hover:bg-[#333333] hover:translate-y-[-4px]"/>
         </button>
       )
   );
