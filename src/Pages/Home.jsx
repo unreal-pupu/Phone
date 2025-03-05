@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState, useEffect } from "react";
 import TABLT from '../assets/TABLT.jpg';
 import LAPII from '../assets/LAPII.jpg';
 import PSFOUR from '../assets/PSFOUR.jpg';
@@ -22,27 +22,55 @@ import POWERB from '../assets/POWERB.jpg';
 import PHONE from '../assets/PHONE.jpg';
 import WATCHES from '../assets/WATCHES.jpg';
 import STUDN from '../assets/STUDN.jpeg';
+import { MdChevronLeft } from "react-icons/md";
+import { MdChevronRight } from "react-icons/md";
+
 
 const Home = () => {
+  const images = [PODS, PS, CDBUY, WATCHES,SWARP,SPFIX,SIXSTUD, CNT, CASE];
+  
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextImage();
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+  
+
+  
+
   return (
-    <>
-      <div>    
+    <> 
    <div className="flex items-center justify-between p-6 pt-20 sm:pt-0 bg-cover bg-center"  >
   <div className="flex flex-col space-y-4 w-full sm:w-1/2 mx-auto pt-40 sm:pl-24 lg:h-screen justify-center items-center">
-    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-20 px-4 font-poppins text-[#6a041d] ">
-      Fast Repairs, Amazing Deals, Seamless Swaps
+    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center px-4 font-poppins text-[#6a041d] pt-20 ">
+     Amazing Deals, Seamless Swaps, Fast Repairs
     </h1>
-    <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center px-4 text-[#333333] font-poppins">
+    <div className="relative w-full h-[800px]">
+        <img src={images[currentIndex]} alt="carousel" className="w-full h-full object-cover rounded-lg shadow-lg transition-opacity duration-500" />
+        <button onClick={prevImage} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md hover:bg-gray-300"> <MdChevronLeft  size={24} /></button>
+     <button onClick={nextImage} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md hover:bg-gray-300"><MdChevronRight size={24} /> </button>
+      </div>
+    <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center px-4 text-[#333333] font-poppins pt-20">
       Discover <span className='text-[#6a041d]'> VINOS GADGETS</span>, where we repair, sell, buy, and swap mobile phones and gadgets. Scan our code anytime, anywhere, and unlock exclusive services and deals!
     </p>
   </div>  
 </div>
-  </div>
-
-      <div className="container mx-auto p-8">
-        
-        <div class="we-fix-everything">
-  <h2 class="text-3xl font-bold text-center font-poppins mb-8 text-[#6a041d]">We Fix Everything!</h2>
+  
+  <div className="container mx-auto p-8">    
+    <div class="we-fix-everything">
+  <h2 class="text-3xl font-bold text-center font-poppins mb-8 text-[#6a041d] pt-40">We Fix Everything!</h2>
   
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
     
