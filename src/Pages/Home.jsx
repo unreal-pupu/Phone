@@ -36,7 +36,7 @@ import XBOX from '../assets/XBOX.jpg'
 import FIFTENPRO from '../assets/FIFTENPRO.jpg'
 
 const Home = () => {
-  const images = [ FIFTENPRO, WFIX, WBAND, APPLEV, GALAXYW, WATCHES, SAMSUNGW,XBOX, GALA, VINEAR, PODS, PS, SMARTPH, VINSW, JBL];
+  const images = [ FIFTENPRO, WFIX, WBAND, APPLEV, GALAXYW, SAMSUNGW,XBOX, GALA, VINEAR, PODS, PS, SMARTPH, VINSW, JBL];
   
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -58,33 +58,33 @@ const Home = () => {
   
   return (
     <> 
- <div className="mt-20">
- <div className="relative w-full h-screen flex items-center justify-center bg-cover bg-center ">
-  <img src={images[currentIndex]} alt="carousel" className="w-full h-full object-cover transition-opacity duration-500"/>
+   <div className="mt-20">
+  <div className="relative w-full h-screen flex items-center justify-center bg-cover bg-center">
+    <img src={images[currentIndex]} alt="carousel" className="w-full h-full object-cover transition-opacity duration-500"/>
 
-  <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 bg-black bg-opacity-40">
-    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
-      Amazing Deals, Seamless Swaps, Fast Repairs
-    </h1>
-    <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center px-4 text-gray-100 font-poppins pt-20 w-[900px]">
-      Discover <span className="text-[#ff4d6d] font-semibold">VINOS GADGETS</span>, where we repair, sell, buy, and swap mobile phones and gadgets. Scan our code anytime, anywhere, and unlock exclusive services and deals!
-    </p>
+    <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-6 md:px-8 ">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight font-poppins">
+        Amazing Deals, Seamless Swaps, Fast Repairs
+      </h1>
+      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-100 font-poppins pt-6 sm:pt-10 md:pt-12 w-full max-w-[900px]">
+        Discover <span className="text-[#6a041d] font-semibold">VINOS GADGETS</span>, where we repair, sell, buy, and swap mobile phones and gadgets. Scan our code anytime, anywhere, and unlock exclusive services and deals!
+      </p>
+    </div>
+
+    <button
+      onClick={prevImage}
+      className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 sm:p-3 rounded-full shadow-md hover:bg-gray-300"
+    >
+      <MdChevronLeft size={24} className="sm:size-30" />
+    </button>
+    <button
+      onClick={nextImage}
+      className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 sm:p-3 rounded-full shadow-md hover:bg-gray-300"
+    >
+      <MdChevronRight size={24} className="sm:size-30" />
+    </button>
   </div>
-
-  <button
-    onClick={prevImage}
-    className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-200 p-3 rounded-full shadow-md hover:bg-gray-300"
-  >
-    <MdChevronLeft size={30} />
-  </button>
-  <button
-    onClick={nextImage}
-    className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-200 p-3 rounded-full shadow-md hover:bg-gray-300"
-  >
-    <MdChevronRight size={30} />
-  </button>
 </div>
- </div>
   
   <div className="container mx-auto p-8">    
     <div class="we-fix-everything">

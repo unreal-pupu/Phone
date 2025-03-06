@@ -53,7 +53,7 @@ const Layout = () => {
                   to=""
                   onClick={toggleMenu}
                 >
-                  Home
+                  Services and repairs
                 </NavLink>
               </li>
               <li>
