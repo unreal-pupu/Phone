@@ -24,10 +24,19 @@ import WATCHES from '../assets/WATCHES.jpg';
 import STUDN from '../assets/STUDN.jpeg';
 import { MdChevronLeft } from "react-icons/md";
 import { MdChevronRight } from "react-icons/md";
-
+import SMARTPH from '../assets/SMARTPH.jpg'
+import VINSW from '../assets/VINSW.jpg'
+import VINEAR from '../assets/VINEAR.jpg'
+import GALA from '../assets/GALA.jpg'
+import APPLEV from '../assets/APPLEV.jpg'
+import GALAXYW from '../assets/GALAXYW.jpg'
+import SAMSUNGW from '../assets/SAMSUNGW.jpg'
+import JBL from '../assets/JBL.jpg'
+import XBOX from '../assets/XBOX.jpg'
+import FIFTENPRO from '../assets/FIFTENPRO.jpg'
 
 const Home = () => {
-  const images = [PODS, PS, CDBUY, WATCHES,SWARP,SPFIX,SIXSTUD, CNT, CASE];
+  const images = [ FIFTENPRO, WFIX, WBAND, APPLEV, GALAXYW, WATCHES, SAMSUNGW,XBOX, GALA, VINEAR, PODS, PS, SMARTPH, VINSW, JBL];
   
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -47,26 +56,35 @@ const Home = () => {
     return () => clearInterval(interval);
   }, []);
   
-
-  
-
   return (
     <> 
-   <div className="flex items-center justify-between p-6 pt-20 sm:pt-0 bg-cover bg-center"  >
-  <div className="flex flex-col space-y-4 w-full sm:w-1/2 mx-auto pt-40 sm:pl-24 lg:h-screen justify-center items-center">
-    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center px-4 font-poppins text-[#6a041d] pt-20 ">
-     Amazing Deals, Seamless Swaps, Fast Repairs
+ <div className="mt-20">
+ <div className="relative w-full h-screen flex items-center justify-center bg-cover bg-center ">
+  <img src={images[currentIndex]} alt="carousel" className="w-full h-full object-cover transition-opacity duration-500"/>
+
+  <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 bg-black bg-opacity-40">
+    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+      Amazing Deals, Seamless Swaps, Fast Repairs
     </h1>
-    <div className="relative w-full h-[800px]">
-        <img src={images[currentIndex]} alt="carousel" className="w-full h-full object-cover rounded-lg shadow-lg transition-opacity duration-500" />
-        <button onClick={prevImage} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md hover:bg-gray-300"> <MdChevronLeft  size={24} /></button>
-     <button onClick={nextImage} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md hover:bg-gray-300"><MdChevronRight size={24} /> </button>
-      </div>
-    <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center px-4 text-[#333333] font-poppins pt-20">
-      Discover <span className='text-[#6a041d]'> VINOS GADGETS</span>, where we repair, sell, buy, and swap mobile phones and gadgets. Scan our code anytime, anywhere, and unlock exclusive services and deals!
+    <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center px-4 text-gray-100 font-poppins pt-20 w-[900px]">
+      Discover <span className="text-[#ff4d6d] font-semibold">VINOS GADGETS</span>, where we repair, sell, buy, and swap mobile phones and gadgets. Scan our code anytime, anywhere, and unlock exclusive services and deals!
     </p>
-  </div>  
+  </div>
+
+  <button
+    onClick={prevImage}
+    className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-200 p-3 rounded-full shadow-md hover:bg-gray-300"
+  >
+    <MdChevronLeft size={30} />
+  </button>
+  <button
+    onClick={nextImage}
+    className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-200 p-3 rounded-full shadow-md hover:bg-gray-300"
+  >
+    <MdChevronRight size={30} />
+  </button>
 </div>
+ </div>
   
   <div className="container mx-auto p-8">    
     <div class="we-fix-everything">

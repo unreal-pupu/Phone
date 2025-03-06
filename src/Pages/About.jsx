@@ -46,7 +46,7 @@ const About = () => {
           </p>
           <div className="text-center">
             <h4 className="text-lg font-medium text-gray-800 mb-2 font-poppins">Opening Hours:</h4>
-            <p className="text-gray-600 font-poppins">Mon - Fri: 8:00 AM - 6:00 PM</p>
+            <p className="text-gray-600 font-poppins">Mon - Sat: 8:00 AM - 6:00 PM</p>
             <p className="text-gray-600 font-poppins"> Sun: Closed</p>
           </div>
         </div>

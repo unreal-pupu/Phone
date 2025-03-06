@@ -21,8 +21,8 @@ const Layout = () => {
           <div className='flex items-center space-x-6'>
              <img src={VG} alt="Tablet Repair"className="w-16 h-16 rounded-full object-contain" />
             <ul className="hidden md:flex space-x-6">
-              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="">Repairs and Services</NavLink></li>
-              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="products">Sell / Swap your Device</NavLink></li>
+              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="">Services and repairs</NavLink></li>
+              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="products">Sell/Swap your Device</NavLink></li>
               <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="about">Contact Us</NavLink></li>
               <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="privacy">Privacy Policy</NavLink></li>
               <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="fac">FAQ</NavLink></li>
@@ -53,7 +53,7 @@ const Layout = () => {
                   to=""
                   onClick={toggleMenu}
                 >
-                  Repairs and Services
+                  Home
                 </NavLink>
               </li>
               <li>

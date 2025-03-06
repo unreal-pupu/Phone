@@ -7,7 +7,7 @@ const Privacy = () => {
         <h1 class="text-3xl font-semibold text-center mb-8 font-poppins">Privacy Policy</h1>
         
         <p class="text-lg mb-6 font-poppins">
-            At PHLOX, we value your privacy and are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and protect the information you provide to us when engaging with our services, whether you are repairing, buying, selling, or swapping mobile phones and gadgets with us.
+            At VINOS GADGET, we value your privacy and are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and protect the information you provide to us when engaging with our services, whether you are repairing, buying, selling, or swapping mobile phones and gadgets with us.
         </p>
 
         <h2 class="text-2xl font-semibold mb-4 font-poppins">1. Information We Collect</h2>
@@ -74,8 +74,8 @@ const Privacy = () => {
         </p>
         <ul class="list-inside list-disc mb-4 font-poppins">
             <li>Email: <a href="mailto:contact@yourcompany.com" class="text-blue-600">contact@yourcompany.com</a></li>
-            <li>Phone: <a href="tel:+1234567890" class="text-blue-600">+1 (234) 567-890</a></li>
-            <li>Address: 123 Business St, City, Country</li>
+            <li>Phone: <a href="tel:+1234567890" class="text-blue-600">+234 7031513455</a></li>
+            <li>Address: Shop 39,First Floor, Zebra Plaza, New GSM and Computer Village, Etegwe, Yenagoa, Bayelsa State, Nigeria.</li>
         </ul>
     </div>
 
