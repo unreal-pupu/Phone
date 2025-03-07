@@ -5,8 +5,7 @@ const About = () => {
   return (
     <>
      <div className="bg-gray-100 p-8 rounded-lg max-w-4xl mx-auto mt-20">
-      
-      <h1 className="text-4xl font-semibold text-center text-gray-800 mb-6 font-poppins">
+      <h1 className="text-4xl font-semibold text-center text-[#14281d] mb-6 font-poppins">
         Get In Touch With Us
       </h1>
       <p className="text-center text-gray-600 mb-6 font-poppins">
@@ -18,7 +17,7 @@ const About = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-xl font-medium text-gray-800 mb-4 font-poppins">Contact Information</h3>
+          <h3 className="text-xl font-medium text-[#14281d mb-4 font-poppins">Contact Information</h3>
           <p className="text-gray-600 mb-2 font-poppins">
             <strong>Phone Number:</strong>{' '}
             <a href="tel:+234 7031513455" className="text-blue-500 hover:text-blue-700">
@@ -40,7 +39,7 @@ const About = () => {
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-xl font-medium text-gray-800 mb-4 font-poppins">Our Location</h3>
+          <h3 className="text-xl font-medium text-[#14281d mb-4 font-poppins">Our Location</h3>
           <p className="text-gray-600 mb-4 font-poppins">
             <strong>Visit Us:</strong> Address: Shop 39,First Floor, Zebra Plaza, New GSM and Computer Village, Etegwe, Yenagoa, Bayelsa State, Nigeria.. Feel free to stop by during business hours.
           </p>
@@ -53,7 +52,7 @@ const About = () => {
       </div>
 
       <div className="bg-white p-6 rounded-lg shadow-lg mt-12">
-        <h3 className="text-xl font-medium text-gray-800 mb-4 text-center font-poppins">Chat with Us on WhatsApp</h3>
+        <h3 className="text-xl font-medium text-[#14281d mb-4 text-center font-poppins">Chat with Us on WhatsApp</h3>
         <p className="text-gray-600 text-center mb-6 font-poppins">
           Scan the QR code below to quickly connect with our team on WhatsApp for any questions or inquiries.
         </p>

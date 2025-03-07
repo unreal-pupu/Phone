@@ -17,15 +17,15 @@ const Layout = () => {
   return (
     <>
       <div>
-        <nav className='flex justify-between items-center p-4 bg-gray-100'>
+        <nav className='flex justify-between items-center p-4 bg-[#000000]'>
           <div className='flex items-center space-x-6'>
              <img src={VG} alt="Tablet Repair"className="w-16 h-16 rounded-full object-contain" />
             <ul className="hidden md:flex space-x-6">
-              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="">Services and repairs</NavLink></li>
-              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="products">Sell/Swap your Device</NavLink></li>
-              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="about">Contact Us</NavLink></li>
-              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="privacy">Privacy Policy</NavLink></li>
-              <li><NavLink className=" text-[#6a041d] hover:text-[#f3c300] font-poppins" to="fac">FAQ</NavLink></li>
+              <li><NavLink className=" text-[#fffcdc] hover:text-[#f3c300] font-poppins" to="">Sell/Swap your Device</NavLink></li>
+              <li><NavLink className=" text-[#fffcdc] hover:text-[#f3c300] font-poppins" to="products">Services and repairs </NavLink></li>
+              <li><NavLink className=" text-[#fffcdc] hover:text-[#f3c300] font-poppins" to="about">Contact Us</NavLink></li>
+              <li><NavLink className=" text-[#fffcdc] hover:text-[#f3c300] font-poppins" to="privacy">Privacy Policy</NavLink></li>
+              <li><NavLink className=" text-[#fffcdc] hover:text-[#f3c300] font-poppins" to="fac">FAQ</NavLink></li>
             </ul>
           </div>
 

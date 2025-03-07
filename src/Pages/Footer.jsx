@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <>
 
-        <footer class="bg-[#333333] text-white py-8 mt-24">
+        <footer class="bg-[#14281d] text-[#fffcdc] py-8 mt-24">
   <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
     
     <div class="flex items-center space-x-4 mb-8 md:mb-0">
-      <h1 class="text-2xl font-bold uppercase text-[#ffffff] font-poppins">VINOS GADGET</h1>
+      <h1 class="text-2xl font-bold uppercase text-[#fffcdc] font-poppins">VINOS GADGET</h1>
       <p class="text-sm text-gray-400 font-poppins">We fix,sell,Buy&Swarp mobile phones </p>
     </div>
 
@@ -19,9 +19,9 @@ const Footer = () => {
     <div class="flex flex-col items-center md:items-end">
       <p class="text-sm text-gray-400 mb-2">Follow Us</p>
       <div class="flex space-x-6">
-        <a href="https://facebook.com/vinogadget"target="_blank" className='text-gray-400 hover:text-blue-600 transition-colors duration-300'><FaFacebook  className='text-3xl'/> </a>
+        <a href="https://facebook.com/vinogadget"target="_blank" className='text-[#fffcdc] hover:text-blue-600 transition-colors duration-300'><FaFacebook  className='text-3xl'/> </a>
      
-        <a href="https://instagram.com/Vinos_gadget_ng" target="_blank" class="text-gray-400 hover:text-[#6a041d] transition-colors duration-300">
+        <a href="https://instagram.com/Vinos_gadget_ng" target="_blank" class="text-[#fffcdc] hover:text-[#6a041d] transition-colors duration-300">
         <FaInstagram  className='text-3xl'/>
         </a>
        
