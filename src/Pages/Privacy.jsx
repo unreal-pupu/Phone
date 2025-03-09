@@ -73,7 +73,7 @@ const Privacy = () => {
             If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please feel free to contact us at:
         </p>
         <ul class="list-inside list-disc mb-4 font-poppins">
-            <li>Email: <a href="mailto:contact@yourcompany.com" class="text-blue-600">contact@yourcompany.com</a></li>
+            <li>Email: <a href="mailto:contact@yourcompany.com" class="text-blue-600">contact@vinosgadget.com</a></li>
             <li>Phone: <a href="tel:+1234567890" class="text-blue-600">+234 7031513455</a></li>
             <li>Address: Shop 39,First Floor, Zebra Plaza, New GSM and Computer Village, Etegwe, Yenagoa, Bayelsa State, Nigeria.</li>
         </ul>

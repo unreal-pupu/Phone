@@ -1,7 +1,7 @@
 import React from 'react'
 import VGQR from '../assets/VGQR.jpg'
 
-const About = () => {
+const Contact = () => {
   return (
     <>
      <div className="bg-gray-100 p-8 rounded-lg max-w-4xl mx-auto mt-20">
@@ -27,7 +27,7 @@ const About = () => {
           <p className="text-gray-600 mb-2 font-poppins">
             <strong>Email:</strong>{' '}
             <a href="mailto:support@example.com" className="text-blue-500 hover:text-blue-700">
-              support@example.com
+              support@vinosgadget.com
             </a>
           </p>
           <p className="text-gray-600 mb-2 font-poppins">
@@ -69,4 +69,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Contact

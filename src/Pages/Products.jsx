@@ -242,7 +242,7 @@ const Products = () => {
           <p className="text-gray-600 mb-2 font-poppins">
             <strong>Email:</strong>{' '}
             <a href="mailto:support@example.com" className="text-[#333333] hover:text-[#6a041d]">
-              support@example.com
+              support@vinosgadget.com
             </a>
           </p>
           <p className="text-gray-600 mb-2 font-poppins">

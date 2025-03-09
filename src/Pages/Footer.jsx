@@ -1,8 +1,6 @@
 import React from 'react'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
@@ -59,7 +57,7 @@ const Footer = () => {
 
     <div>
       <h3 class="font-semibold text-lg mb-2 font-poppins">Get in Touch</h3>
-      <p class="text-sm text-gray-400 font-poppins">Email: <a href="mailto:contact@yourcompany.com" class="hover:text-white">contact@yourcompany.com</a></p>
+      <p class="text-sm text-gray-400 font-poppins">Email: <a href="mailto:support@vinosgadget.com" class="hover:text-white">support@vinosgadget.com</a></p>
       <p class="text-sm text-gray-400 font-poppins">Mobile: <a href="tel:+234 7031513455" class="hover:text-white">+234 7031513455</a></p>
       <p class="text-sm text-gray-400 font-poppins">Opening Hours: Mon-Sat 8:00 AM - 6:00 PM</p>
       <p class="text-sm text-gray-400 font-poppins">Address: Shop 39,First Floor, Zebra Plaza, New GSM and Computer Village, Etegwe, Yenagoa, Bayelsa State, Nigeria.</p>

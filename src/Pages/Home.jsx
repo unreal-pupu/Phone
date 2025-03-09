@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React from 'react'
 import TABLT from '../assets/TABLT.jpg';
 import LAPII from '../assets/LAPII.jpg';
 import PSFOUR from '../assets/PSFOUR.jpg';
@@ -22,23 +22,10 @@ import POWERB from '../assets/POWERB.jpg';
 import PHONE from '../assets/PHONE.jpg';
 import WATCHES from '../assets/WATCHES.jpg';
 import STUDN from '../assets/STUDN.jpeg';
-import { MdChevronLeft } from "react-icons/md";
-import { MdChevronRight } from "react-icons/md";
-import SMARTPH from '../assets/SMARTPH.jpg'
-import VINSW from '../assets/VINSW.jpg'
-import VINEAR from '../assets/VINEAR.jpg'
-import GALA from '../assets/GALA.jpg'
-import APPLEV from '../assets/APPLEV.jpg'
-import GALAXYW from '../assets/GALAXYW.jpg'
-import SAMSUNGW from '../assets/SAMSUNGW.jpg'
-import JBL from '../assets/JBL.jpg'
-import XBOX from '../assets/XBOX.jpg'
 import IPHONESIXTEN from '../assets/IPHONESIXTEN.jpg'
 
 
 const Home = () => {
- 
-  
   return (
     <> 
    <div className="mt-20">
@@ -332,7 +319,7 @@ const Home = () => {
     <div class="text-center bg-white p-6 rounded-lg shadow-lg w-64 mb-8 sm:mb-0">
       <h3 class="text-lg font-medium text-[#333333] mb-4 font-poppins">Email Us</h3>
       <p class="text-gray-600 mb-4 font-poppins">For general inquiries, reach us via email.</p>
-      <a href="mailto:support@example.com" class="inline-block text-blue-500 hover:text-blue-700">support@example.com</a>
+      <a href="mailto:support@example.com" class="inline-block text-blue-500 hover:text-blue-700">support@vinosgadget.com.com</a>
     </div>
   
     <div class="text-center bg-white p-6 rounded-lg shadow-lg w-64">
